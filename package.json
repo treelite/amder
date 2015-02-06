@@ -1,0 +1,15 @@
+{
+  "name": "amder",
+  "version": "0.1.0",
+  "description": "Simply AMD loader for Node",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "treelite",
+      "email": "c.xinle@gmail.com"
+    }
+  ],
+  "repository": "https://github.com/treelite/amder.git",
+  "bugs": "https://github.com/treelite/amder/issues",
+  "license": "ISC"
+}
