@@ -54,6 +54,10 @@ function searchPackages(id) {
             res = path.resolve(loadConfig.baseUrl || '', pkg.location, pkg.main || '');
             return true;
         }
+        else if (id.indexOf(pkg.name + '/') ===  0) {
+            res = id.replace(pkg.name, path.resolve(loadConfig.baseUrl || '', pkg.location));
+            return true;
+        }
         return false;
     });
 
