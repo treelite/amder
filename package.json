@@ -2,6 +2,7 @@
   "name": "amder",
   "version": "0.1.0",
   "description": "Simply AMD loader for Node",
+  "keywords": ["AMD", "loader", "CMD", "node"],
   "main": "index.js",
   "maintainers": [
     {
